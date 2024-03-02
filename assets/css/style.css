@@ -282,10 +282,20 @@ p {
 } */
 
 /* flexbox */
+.item-details-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-container {
+    display: flex;
+    justify-content: flex-start;
+
+}
 
 .price-container {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
 
 .price-container {
@@ -294,11 +304,12 @@ p {
 
 .color-div {
     display: inline-flex;
+    justify-content: flex-end;
 }
 
-.shipping {
+/* .shipping {
     margin-left:
-}
+} */
 
 .price-container {
     margin-top: 40px;
@@ -306,5 +317,5 @@ p {
 
 .features-flexbox {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
