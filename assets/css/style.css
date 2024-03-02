@@ -177,7 +177,7 @@ p {
 .color-div {
     margin-left: 52px;
     margin-bottom: 28px;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .colors {
@@ -254,47 +254,57 @@ p {
 
 /* FLOATS */
 
-.img-container {
+/* .img-container {
     float: left;
-}
+} */
 
-.price-container {
-    /* background-color: blue; */
-    width: 615px;
-    /* margin-top: 60px; */
-    padding-right: 50px;
-    float: right;
-}
-
-.features-container {
-    /* background-color: red; */
+/* .price-container {
     width: 615px;
     padding-right: 50px;
     float: right;
-}
+} */
+
+/* .features-container {
+    width: 615px;
+    padding-right: 50px;
+    float: right;
+} */
 
 /* alignment fix */
-.shipping {
+/* .shipping {
     float: right;
-    /* movement for .shipping FIX */
     margin-left: -10px;
     padding-right: 140px;
-}
+} */
 
-.more-info {
+/* .more-info {
     float: left;
-}
+} */
 
 /* flexbox */
 
-.product-flex {
+.price-container {
     display: flex;
+    justify-content: flex-start;
+}
+
+.price-container {
+    width: 500px;
+}
+
+.color-div {
+    display: inline-flex;
 }
 
 .shipping {
-    padding-top: 27px;
+    margin-left:
 }
 
 .price-container {
     margin-top: 40px;
+}
+
+.features-flexbox {
+    display: flex;
+    justify-content: flex-start;
 }
