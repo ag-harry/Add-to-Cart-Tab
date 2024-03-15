@@ -170,11 +170,11 @@ p {
 
 /* COLOR OPTIONS */
 
-/* .color-div {
-    margin-left: 52px;
-    margin-bottom: 28px;
-    display: inline-block;
-} */
+
+.color-container {
+    display: block;
+
+}
 
 .colors {
     height: 30px;
@@ -183,12 +183,6 @@ p {
     border-radius: 50px;
     margin-right: 10px;
 }
-
-.color-container {
-    display: flex;
-}
-
-.colors-container {}
 
 .natural-leather {
     background-color: rgb(77, 51, 26)
@@ -259,12 +253,7 @@ p {
     justify-content: flex-start;
 }
 
-.color-flex {
-    display: flex;
-    align-items: center;
-    justify-items: flex-start;
-}
-
+.color-flex {}
 
 .features-container {
     display: inline;
